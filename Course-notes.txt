@@ -3,3 +3,19 @@ A socket can be simultaneously read and written
 urllib  Python library makes it very easy to make HTTP requests from Python
 listen()  function call actually waits for incoming socket connection requests
 bind()  function call will fail if another application is already using a port
+to start a server with django
+
+cd desktop
+mkdir django_project
+cd django_project
+Python -m venv env
+pip install django
+django-admin startproject django_project. !!! the application we build in step 1 of "Writing your first Django app
+python manage.py runserver
+python manage.py startapp "base"  is used to add a new application to a Django project
+
+
+
+
+/urls.py file, what is the basic idea of "include"--> To make it easy to plug-and-play URLs
+the purpose of the admin site in a Django project -->It lets you add, change, and delete data items
