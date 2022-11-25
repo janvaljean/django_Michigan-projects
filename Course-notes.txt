@@ -1,0 +1,5 @@
+When a browser connects to a web server to retrieve a document,get command is sent to the server
+A socket can be simultaneously read and written
+urllib  Python library makes it very easy to make HTTP requests from Python
+listen()  function call actually waits for incoming socket connection requests
+bind()  function call will fail if another application is already using a port
